@@ -1,2 +1,3 @@
 name: Ben Brewster
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
