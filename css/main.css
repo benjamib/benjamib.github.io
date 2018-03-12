@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
 body {
     margin: 60px auto;
     width: 70%;
+    font-family:'Nanum Pen Script';
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+}
+nav ul{
+  font-family:'Nanum Pen Script','Helvetica', 'Arial', 'Sans-Serif';
+  font-size: 30px;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -20,8 +28,9 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 5em;
+    font-weight: lighter;
+    font-family:'Cabin Sketch', 'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
@@ -33,17 +42,16 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
-
 ul.posts li {
     list-style: none;
 }
-.blurb{
-    margin: 60px auto;
-    width: 70%;
-    background-color:rgba(0,0,0,.2);
-    border:1px solid black;
+.blurb h1{
+  margin-top:-30px;
+}
+.title{
+  font-family: 'Cabin Sketch';
 }
