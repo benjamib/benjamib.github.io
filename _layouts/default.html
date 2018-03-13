@@ -4,17 +4,26 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css" />
+			<!--link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/-->
 		</head>
 		<body>
 			<nav class="navigation">
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
+							<div class="w3-dropdown-hover">
+				      <div>More</div>
+				      <div class="w3-dropdown-content w3-card-4">
+				        <a href="/projects" class="w3-bar-item w3-button">Projects </a>
+				        <a href="/videos" class="w3-bar-item w3-button">Videos </a>
+				        <a href="/podcasts" class="w3-bar-item w3-button">Podcasts </a>
+								<a href="/courses" class="w3-bar-item w3-button">Courses </a>
+				      </div>
+				    </div>
 	    		</ul>
 					<div class="blurb">
-						<h1>Make + Learn = Fun</h1>
+						<h1><span class="red">Make</span> + <span class="green">Learn</span> = <span class="yellow">Fun</span></h1>
 					</div>
 			</nav>
 
