@@ -1,0 +1,39 @@
+---
+layout: default
+title: Test Projects
+---
+<div class="blurb">
+	<img src="/assets/head-brains.png" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+	<p>
+		<span class="title green">Podcasts</span>
+	</p>
+</div>
+  <ul class="posts">
+
+	  {% for video in site.videos %}
+	    <li>
+        <div class="w3-card-4 w3-padding" style="width:80%;margin-left:64px;margin-bottom:64px;">
+          <header class="w3-container">
+            <a href="{{ project.url }}" title="{{ project.title }}"><span class="title green">{{ video.title }}</span><span class="w3-margin-left">{{video.date|date_to_string}}</span></a>
+          </header>
+          <hr class="red">
+
+          <div class="w3-container">
+            {% if video.type == "Rocket" %}
+              <img src="/assets/rocket.png " alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+            {% elsif video.type == "Molecule" %}
+              <img src="/assets/cube-molecule.png" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+            {% endif %}
+            <p>{{video.description}}</p>
+          </div>
+
+          <footer class="w3-container">
+            <div class="w3-left w3-margin-left yellow"><h3>{{video.time}}</h3></div><div class="w3-right w3-margin-right yellow"><h3>{{video.difficulty}}</h3></div>
+          </footer>
+        </div>
+      </li>
+			<!--div class="content">
+				{{project.content}}
+			</div-->
+	  {% endfor %}
+	</ul>
