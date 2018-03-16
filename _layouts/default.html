@@ -4,39 +4,62 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css" />
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-blue.css">
 		</head>
 		<body>
-			<nav class="navigation">
-	    		<ul>
+			<nav class="navigation w3-border-bottom">
+	    		<ul style="padding-left:16px;">
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
 	        		<li><a href="/blog">Blog</a></li>
 							<div class="w3-dropdown-hover">
 				      <div>More</div>
 				      <div class="w3-dropdown-content w3-card-4">
-				        <a href="/projects" class="w3-bar-item w3-button">Projects </a>
-				        <a href="/videos" class="w3-bar-item w3-button">Videos </a>
-				        <a href="/podcasts" class="w3-bar-item w3-button">Podcasts </a>
-								<a href="/courses" class="w3-bar-item w3-button">Courses </a>
+				        <a href="/projects" class="w3-bar-item w3-padding">Projects </a>
+				        <a href="/videos" class="w3-bar-item w3-padding">Videos </a>
+				        <a href="/podcasts" class="w3-bar-item w3-padding">Podcasts </a>
+								<a href="/courses" class="w3-bar-item w3-padding">Courses </a>
 				      </div>
 				    </div>
 	    		</ul>
+
 					<div class="blurb">
 						<h1><span class="red">Make</span> + <span class="green">Learn</span> = <span class="yellow">Fun</span></h1>
 					</div>
 			</nav>
 
-			<div class="container">
+
+			<div class="container" style="padding:48px;">
 
 
 			{{ content }}
 
 			</div><!-- /.container -->
-			<footer>
+			<footer style="padding-left:8px;">
 	    		<ul>
 	        		<li><a href="mailto:benjamig@gmail.com">email</a></li>
 	        		<li><a href="https://github.com/benjamb">github.com/benjamib</a></li>
 				</ul>
 			</footer>
+			<script>
+				var slideIndex = 1;
+				showDivs(slideIndex);
+
+				function plusDivs(n) {
+				showDivs(slideIndex += n);
+				}
+
+				function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				if (n > x.length) {slideIndex = 1}
+				if (n < 1) {slideIndex = x.length}
+				for (i = 0; i < x.length; i++) {
+					 x[i].style.display = "none";
+				}
+				x[slideIndex-1].style.display = "block";
+				}
+			</script>
 		</body>
 	</html>

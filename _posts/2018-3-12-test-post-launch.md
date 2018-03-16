@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Test, Launches Site"
+title: "Welcome"
 date: 2016-08-17
+description: "This is our very first post here on Make + Learn = Fun and I want to introduce who we are."
 ---
 
 Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](https://jekyllrb.com)

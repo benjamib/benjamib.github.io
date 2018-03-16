@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
 
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 0px auto;
+    width:100%;
     font-family:'Nanum Pen Script';
 }
 nav ul, footer ul {
@@ -31,6 +31,7 @@ h1 {
     font-size: 5em;
     font-weight: lighter;
     font-family:'Cabin Sketch', 'Helvetica', 'Arial', 'Sans-Serif';
+    margin:16px;
 }
 p {
     font-size: 1.5em;

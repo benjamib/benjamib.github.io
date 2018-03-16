@@ -2,8 +2,10 @@
 layout: project
 title: "Bridge"
 date: 2016-08-17
-tag: "Molecule"
-description: "Build a real life bridge made of concrete steel and other awesome materials. Impress your friends with your incredible civil engineering skills"
+type: "Molecule"
+description: "Build a real life bridge made of concrete steel and other awesome materials."
+time: "50h"
+difficulty: "Hard"
 ---
 
 Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com)
