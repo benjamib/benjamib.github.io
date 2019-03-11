@@ -48,6 +48,7 @@ ul.posts {
     font-size: 1.5em;
 }
 ul.posts li {
+    margin-top:8px;
     list-style: none;
 }
 .blurb h1{
