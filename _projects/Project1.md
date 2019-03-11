@@ -1,9 +1,9 @@
 ---
 layout: project
-title: "Rocket Ship"
+title: "Command-ui"
 date: 2016-08-17
 type: "Rocket"
-description: "Learn to build a rocket that can fly you to the moon, mars or beyond. Elon Musk will be very jealous."
+description: "Command-ui is a retro style text based adventure set in space"
 time: "100h"
 difficulty: "Very Hard"
 ---

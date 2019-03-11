@@ -10,7 +10,6 @@ title: Ben Brewster, TEST
 		project resources, educational videos, and informative podcasts to help young makers explore the world
 		of science, technology, and art through hands on learning.
 	</p>
-	<br/>
 	<p>
 		I am a software developer by trade, computer and electrical engineer by schooling, and most importantly a father. I want
 		to create a place to share my love of learning through making with the world.
@@ -23,11 +22,6 @@ title: Ben Brewster, TEST
       <hr class="red">
 
       <div class="w3-container" style="height:150px;">
-        {% if project.type == "Rocket" %}
-          <img src="/assets/rocket.png " alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
-        {% elsif project.type == "Molecule" %}
-          <img src="/assets/cube-molecule.png" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
-        {% endif %}
         <p>{{project.description}}</p>
       </div>
 		{% endfor %}
