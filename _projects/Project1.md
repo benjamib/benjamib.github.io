@@ -13,6 +13,6 @@ Command-ui is the first game under development at <span class="title"><span clas
  
 The entire development process can be followed through our <b>[Blog](https://benjamib.github.io/blog/)</b>
 
-In addition to following the development on the blog, there will be occasional YouTube videos posted to chronicle our development as well as to demonstrate the game as it progresses. The current commmit of the game can alwas be found at <b>[Current](https://benjamib.github.io/command-ui/command-ui.html)>/b>
+In addition to following the development on the blog, there will be occasional <b>[YouTube videos](https://benjamib.github.io/videos/)</b> posted to chronicle our development as well as to demonstrate the game as it progresses. The current commmit of the game can alwas be found at <b>[Current](https://benjamib.github.io/command-ui/command-ui.html)</b>
 
 I hope you join me in this development journey!
