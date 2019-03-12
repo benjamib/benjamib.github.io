@@ -12,14 +12,12 @@ The game itself is written entirely in HTML, CSS, and Javascript. The terminal U
 
 To start I assign my "crt" class to the entire body of the HTML page.
 
-```
+<pre><code>
 <body class="crt">
   
 </body>
-```
+</code></pre>
 The "crt" class contians the following CSS.
-
-<div style="background-color:rgb(200,200,200)">
 
 ```
 .crt::after {
@@ -50,4 +48,6 @@ The "crt" class contians the following CSS.
   animation: textShadow 4.6s infinite;
 }
 ```
-</div>
+
+
+
