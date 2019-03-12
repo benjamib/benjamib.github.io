@@ -13,7 +13,7 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul{
-  font-family:'Nanum Pen Script','Helvetica', 'Arial', 'Sans-Serif';
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
   font-size: 30px;
 }
 nav ul li, footer ul li {
