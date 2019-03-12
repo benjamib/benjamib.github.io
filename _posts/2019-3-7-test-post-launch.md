@@ -186,4 +186,4 @@ The "command" class is very similar to the "output" class, but just contains dif
 
 The final result is a very cool looking retro terminal.
 
-![alt text](https://enjamib.github.io/assets/Screenshot 2019-03-11 at 11.08.42 PM.png "Retro Terminal")
+![alt text](https://benjamib.github.io/assets/Screenshot 2019-03-11 at 11.08.42 PM.png "Retro Terminal")
