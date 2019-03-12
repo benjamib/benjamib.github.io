@@ -3,23 +3,14 @@ layout: default
 title: Test Projects
 ---
 
-  <ul class="posts">
+  <div>
+	<ul class="posts">
 
 	  {% for video in site.videos %}
-	    <li>
-        <div>
-          <header>
-            <a href="{{ video.url }}" title="{{ video.title }}"><span class="title green">{{ video.title }}</span>
-		    <span class="w3-margin-left">{{video.date|date_to_string}}</span></a>
-		</header>
-
-          <div class="content">
-            <p>{{video.description}}</p>
-          </div>
-        </div>
-      </li>
-			<!--div class="content">
-				{{project.content}}
-			</div-->
+	    <li><span class="yellow">{{ video.date | date_to_string }}</span> » <a class="green" href="{{ video.url }}" title="{{ video.title }}">{{ video.title }}</a></li>
+			<div class="content">
+				{{video.description}}
+			</div>
 	  {% endfor %}
 	</ul>
+</div>
