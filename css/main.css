@@ -12,6 +12,9 @@ body {
     width:65%;
     /*font-family:'Nanum Pen Script', 'Arial', 'Sans-Serif';*/
     font-family: "VT323",monospace;
+    color:rgb(50,255,0);
+    background-color: black;
+    
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -43,7 +46,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    /*color: #333;*/
 }
 footer {
     border-top: 1px solid #d5d5d5;
