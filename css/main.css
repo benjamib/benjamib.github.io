@@ -10,7 +10,8 @@
 body {
     margin: 0px auto;
     width:65%;
-    font-family:'Nanum Pen Script', 'Arial', 'Sans-Serif';
+    /*font-family:'Nanum Pen Script', 'Arial', 'Sans-Serif';*/
+    font-family: "VT323",monospace;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
