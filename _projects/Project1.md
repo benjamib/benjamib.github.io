@@ -9,7 +9,7 @@ location: "https://github.com/benjamib/command-ui"
 difficulty: "Very Hard"
 ---
 
-Command-ui is the first game under development at <span class="title"><span class="red">Make</span> + <span class="green">Learn</span> = <span class="yellow">Fun</span></span>. The project page can be found at <b>[Command-ui](https://github.com/benjamib/command-ui). </b>
+Command-ui is the first game under development at <span class="title"><span class="red">Make</span> + <span class="green">Learn</span> = <span class="yellow">Fun</span></span>. The project page can be found on github at <b>[Command-ui](https://github.com/benjamib/command-ui). </b>
  
 The entire development process can be followed through our <b>[Blog](https://benjamib.github.io/blog/)</b>
 
