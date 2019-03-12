@@ -3,8 +3,8 @@
 
 body {
     margin: 0px auto;
-    width:75%;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    width:65%;
+    font-family:'Nanum+Pen+Script', 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -13,7 +13,7 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul{
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-family:'Nanum+Pen+Script', 'Arial', 'Sans-Serif';
   font-size: 30px;
 }
 nav ul li, footer ul li {
@@ -30,7 +30,7 @@ a:hover {
 h1 {
     font-size: 5em;
     font-weight: lighter;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Cabin Sketch', 'Arial', 'Sans-Serif';
     margin:16px;
 }
 p {
