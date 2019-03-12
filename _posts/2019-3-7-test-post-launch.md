@@ -46,9 +46,9 @@ The "crt" class contians the following CSS.
 }
 ```
 
-The `.crt::after` creates a nearly black background positioned absolutely on the screen.
+The ".crt::after" creates a nearly black background positioned absolutely on the screen.
 
-The `crt::before` creates a repeating background image that is a linear gradient. The linear gradient is what adds the scan line effect to the text that makes it look like an old school crt display.
+The ".crt::before" creates a repeating background image that is a linear gradient. The linear gradient is what adds the scan line effect to the text that makes it look like an old school crt display.
 
 To add a little extra crt-iness to the dispaly, I added a CSS animation that adds misconvergence to the display. This is the effect of the different color channels not always lining up.
 The effect is created by animating a text-shadow that isolates the RGB colors at different intensities and positions.
@@ -186,4 +186,4 @@ The "command" class is very similar to the "output" class, but just contains dif
 
 The final result is a very cool looking retro terminal.
 
-![alt text](https://github.com/benjamib.github.io/assets/Screenshot 2019-03-11 at 11.08.42 PM.png "Retro Terminal")
+![alt text](https://enjamib.github.io/assets/Screenshot 2019-03-11 at 11.08.42 PM.png "Retro Terminal")
