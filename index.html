@@ -7,7 +7,7 @@ title: Ben Brewster, TEST
 	<!--img src="/assets/myAvatar.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px"-->
 	<p>
 		<span class="title"><span class="red">Make</span> + <span class="green">Learn</span> = <span class="yellow">Fun</span></span> is a one person development studio based in Madison Wisconsin.
-		Currently command-ui is the first game under development. The entire process will be chronicled in a development diary, so stay tuned for the latest updates. In addition to command-ui, we have game development tutorials on our blog as well as
+		The Hex Map Editor Unity asset is the first commercial project under development. The entire process will be chronicled in a development diary, so stay tuned for the latest updates. In addition to command-ui, we have game development tutorials on our blog as well as
 		video tutorials on our YouTube channel. 
 		
 		As a self-funded indie developer, I appreciate any support you can provide. 
@@ -15,7 +15,7 @@ title: Ben Brewster, TEST
 	<div class="post">
     {% for project in site.projects %}
       <header class="w3-container w3-padding">
-        <a href="{{ project.url }}" title="{{ project.title }}"><span class="green" style="font-size:30px;">{{ project.title }}</span><!--span class="w3-margin-left">{{project.date|date_to_string}}</span--></a>
+        <a href="{{ project.url }}" title="{{ project.title }}"><span class="green" style="font-size:30px;">{{ project.title }}</span></a>
       </header>
       <hr class="red">
 
@@ -27,29 +27,5 @@ title: Ben Brewster, TEST
 </div><!-- /.blurb -->
 
 
-<!--h2 class="green">Projects</h2>
 
-<div class="post">
-    {% for project in site.projects %}
-		<div class="w3-card-4 mySlides w3-white" style="width:100%;height:260px;">
-      <header class="w3-container w3-padding">
-        <a href="{{ project.url }}" title="{{ project.title }}"><span class="title green">{{ project.title }}</span><span class="w3-margin-left">{{project.date|date_to_string}}</span></a>
-      </header>
-      <hr class="red">
-
-      <div class="w3-container" style="height:150px;">
-        {% if project.type == "Rocket" %}
-          <img src="/assets/rocket.png " alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
-        {% elsif project.type == "Molecule" %}
-          <img src="/assets/cube-molecule.png" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
-        {% endif %}
-        <p>{{project.description}}</p>
-      </div>
-
-      <footer class="w3-container">
-        <div class="w3-left w3-margin-left yellow"><h2>{{project.time}}</h2></div><div class="w3-right w3-margin-right yellow"><h2>{{project.difficulty}}</h2></div>
-      </footer>
-    </div>
-		{% endfor %}
-</div-->
 
